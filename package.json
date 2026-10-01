@@ -1,0 +1,12 @@
+{
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "file-type": "^16.5.4",
+        "multer": "^2.4.0"
+    }
+}
